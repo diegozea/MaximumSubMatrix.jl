@@ -2,5 +2,6 @@ using MaximumSubMatrix
 using Test
 
 @testset "MaximumSubMatrix.jl" begin
-    # Write your tests here.
+    include("histogram.jl")
+    include("submatrix.jl")
 end
